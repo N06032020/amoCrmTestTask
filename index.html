@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>amoCRMTest</title>
+  </head>
+  <body>
+    <div class="page">
+      <!--Header-->
+      <header class="header">
+        <div class="container">
+          <div class="navbar-wrapper">
+            <div class="navbar-left">
+              <img class="navbar-logo" src="/assets/images/header/logo.svg" alt="logo" />
+            </div>
+            <div class="navbar-search">
+              <img class="navbar-search__img" src="/assets/images/header/search.svg" alt="" />
+              <input type="search" placeholder="Найти..." />
+            </div>
+            <div class="navbar-right">
+              <span>Константин</span>
+              <picture>
+                <source
+                  class="navbar-person"
+                  srcset="/assets/images/header/person.png"
+                  media="(min-width: 600px)"
+                />
+                <img src="/assets/images/header/person-mobile.svg" alt="person" />
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-search__mobile">
+          <img
+            class="navbar-search__mobile-img"
+            src="/assets/images/header/search.svg"
+            alt="person-mobile"
+          />
+          <input type="search" placeholder="Найти..." />
+        </div>
+      </header>
+      <!--/Header-->
+
+      <!--Main-->
+      <main class="main">
+        <div class="container">
+          <div class="main-content">
+            <div class="main-content__text">
+              <h1 class="text-title">НАШИ ПАРТНЁРЫ</h1>
+            </div>
+            <div class="card-items">
+              <div class="card-item">
+                <img class="card-item__img" src="/assets/images/main/1.svg" alt="card1" />
+              </div>
+              <div class="card-item">
+                <img class="card-item__img" src="/assets/images/main/2.svg" alt="card2" />
+              </div>
+              <div class="card-item">
+                <img class="card-item__img" src="/assets/images/main/3.svg" alt="card3" />
+              </div>
+              <div class="card-item">
+                <img class="card-item__img" src="/assets/images/main/4.svg" alt="card4" />
+              </div>
+              <div class="card-item">
+                <img class="card-item__img" src="/assets/images/main/5.svg" alt="card5" />
+              </div>
+              <div class="card-item">
+                <img class="card-item__img" src="/assets/images/main/6.svg" alt="card6" />
+              </div>
+              <div class="card-item">
+                <img class="card-item__img" src="/assets/images/main/7.svg" alt="card7" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!--/Main-->
+    </div>
+  </body>
+</html>
