@@ -163,7 +163,7 @@ body {
 .page .main .container .main-content .card-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 2%;
+  gap: 2.5%;
   margin: 0 auto;
   max-width: 1170px;
   width: 100%;
@@ -179,10 +179,6 @@ body {
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 30px;
-}
-.page .main .container .main-content .card-items .card-item .card-item__img {
-  width: 60px;
-  height: 60px;
 }
 .page .main .container .main-content .card-items .card-item:hover {
   box-shadow: 0px 0px 10px 0px rgba(164, 164, 164, 0.031372549);
