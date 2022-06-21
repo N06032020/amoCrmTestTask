@@ -224,7 +224,10 @@ body {
     width: 97% !important;
   }
   .container .navbar-left {
-    margin-left: 12px !important;
+    margin-left: 11px !important;
+  }
+  .container .navbar-right {
+    margin-top: 8px;
   }
   .container .navbar-right span {
     display: none;
