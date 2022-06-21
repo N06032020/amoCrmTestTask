@@ -1,23 +1,33 @@
 //@media (max-width: 768px)
 @media (max-width: 768px) {
+  .header {
+    margin-bottom: 63px !important;
+  }
   .container {
     padding: 0 2.605% !important;
 
     .navbar-search {
-      max-width: 459px !important;
+      max-width: 479px !important;
+      input {
+        width: 96% !important;
+      }
     }
   }
+
   .main {
     .container {
       .main-content {
         .main-content__text {
+          margin-bottom: 24px !important;
           .text-title {
             font-size: 28px !important;
           }
         }
         .card-items {
+          gap: 3.1% !important;
           .card-item {
             width: 31.197% !important;
+            margin-bottom: 20px !important;
           }
         }
       }
@@ -27,9 +37,18 @@
 
 //@media (max-width: 375px)
 @media (max-width: 375px) {
+  .header {
+    margin-bottom: 88px !important;
+  }
   .container {
     padding: 0 2.605% !important;
-
+    height: 91% !important;
+    .navbar-wrapper {
+      width: 97% !important;
+    }
+    .navbar-left {
+      margin-left: 12px !important;
+    }
     .navbar-right {
       span {
         display: none;
@@ -45,8 +64,13 @@
   }
   .navbar-search__mobile {
     display: block !important;
+    height: 33px !important;
     .navbar-search__mobile-img {
       display: none;
+    }
+    input {
+      height: 33px !important;
+      padding-left: 48px !important;
     }
   }
 
@@ -54,6 +78,7 @@
     .container {
       .main-content {
         .main-content__text {
+          margin-left: 10px !important;
           .text-title {
             font-size: 28px !important;
           }
